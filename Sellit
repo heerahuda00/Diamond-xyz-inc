@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Business</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; }
+    header { background: #0d6efd; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin-top: 10px; }
+    header a { display: inline-block; margin-top: 20px; padding: 10px 20px; background: white; color: #0d6efd; text-decoration: none; border-radius: 5px; }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card h3 { margin-top: 0; }
+
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #0d6efd; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0b5ed7; }
+
+    footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Business</h1>
+    <p>We provide top-quality services to help your brand grow.</p>
+    <a href="#services">View Our Services</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Our company is dedicated to delivering excellent solutions for our clients. We focus on innovation, customer satisfaction, and growth.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Service One</h3>
+        <p>Short description of your first service.</p>
+      </div>
+      <div class="card">
+        <h3>Service Two</h3>
+        <p>Short description of your second service.</p>
+      </div>
+      <div class="card">
+        <h3>Service Three</h3>
+        <p>Short description of your third service.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Business. All rights reserved.</p>
+  </footer>
+</body>
+</html>
